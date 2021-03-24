@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="documentation.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <nav class="navbar">
+        <img src="./assets/fg-light.png" class="brand-title" />
+
+        <span class="brand-name">Matte-strap</span>
+        <a href="#" class="toggle-button">
+          <span class="bar bar1"></span>
+          <span class="bar bar2"></span>
+          <span class="bar bar3"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <!-- Mobile navigation -->
+
+            <li id="li1"><a href="home.html">Home</a></li>
+
+            <li id="li2" style="display: flex; align-self: center">
+              <select id="select">
+                <option value="Docs" selected>Documentation</option>
+                <option value="navbar">nav &amp; sidebar</option>
+                <option value="avatar">avatar</option>
+                <option value="card">card</option>
+                <option value="alert">Alert</option>
+                <option value="badge">Badge</option>
+              </select>
+            </li>
+
+            <li id="li3"><a href="contact.html">Contact</a></li>
+
+            <!-- Desktop navigation -->
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- Main -->
+    <h1
+      style="
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+          'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      "
+    >
+      Documentation
+    </h1>
+    <main>
+      it will have steps to connect css with user's html with pics. pics will
+      also have mobile and desktop view based on screen size i'll make them
+      display none if(screenSize === "mobile"){ display mobile steps }else{
+      display desktop steps }
+    </main>
+    <!-- Body Ends here -->
+    <script src="./main.js"></script>
+    <script>
+      var select = document.getElementById("select");
+      select.addEventListener("input", (e) => {
+        switch (e.target.value) {
+          case "navbar":
+            window.location = "./documentation/navbar.html";
+            break;
+          case "avatar":
+            window.location = "./documentation/avatar.html";
+            break;
+          case "card":
+            window.location = "./documentation/cards.html";
+            break;
+          case "alert":
+            window.location = "./documentation/alert.html";
+            break;
+          case "badge":
+            window.location = "./documentation/badge.html";
+            break;
+          case "Docs":
+            let file = window.location.href;
+            let arr = file.split("/");
+            console.log(arr[arr.length - 1]);
+            if (window.location.href !== "documentation.html") {
+              window.location = "../documentation.html";
+            }
+            break;
+        }
+      });
+    </script>
+  </body>
+</html>

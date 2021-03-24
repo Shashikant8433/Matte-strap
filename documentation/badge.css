@@ -1,0 +1,57 @@
+:root {
+  --primary-color: #333;
+  --primary-color-hover: #555;
+  --primary-color-hover1: #adadad;
+  --primary-color-hover2: #dedede;
+  --success-dark: #266b28;
+  --success: #669968;
+  --success-hover: #cbf5cc;
+  --error-dark: #c93e41;
+  --error: #dc5456;
+  --error-hover: #d88687;
+  --warn-dark: #edd453;
+  --warn: #d3b624ec;
+  --warn-hover: #fcf0b4;
+  --info-dark: #4da5f7;
+  --info: #6394c6;
+  --info-hover: #91caff;
+}
+
+.new {
+  background-color: var(--info-hover);
+  color: var(--info-dark);
+  font-weight: bolder;
+  padding: 0.2rem 0.4rem;
+  margin: 1rem;
+  border-radius: 3px;
+  -webkit-text-stroke: 0.11px black;
+  width: min-content;
+}
+.error {
+  background-color: var(--error-hover);
+  color: var(--error-dark);
+  font-weight: bolder;
+  padding: 0.2rem 0.4rem;
+  margin: 1rem;
+  border-radius: 3px;
+  width: min-content;
+}
+.success {
+  background-color: var(--success-hover);
+  color: var(--success-dark);
+  font-weight: bolder;
+  padding: 0.2rem 0.4rem;
+  margin: 1rem;
+  border-radius: 3px;
+  width: min-content;
+}
+.warning {
+  background-color: var(--warn-hover);
+  color: var(--warn-dark);
+  font-weight: bolder;
+  padding: 0.2rem 0.4rem;
+  margin: 1rem;
+  border-radius: 3px;
+  -webkit-text-stroke: 0.11px black;
+  width: min-content;
+}

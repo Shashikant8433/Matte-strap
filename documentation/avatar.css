@@ -1,0 +1,55 @@
+:root {
+  --primary-color: #333;
+  --primary-color-hover: #555;
+  --primary-color-hover1: #adadad;
+  --primary-color-hover2: #dedede;
+  --success: #6e956f;
+  --success-hover: #cbf5cc;
+  --error: #e38587;
+  /* e05a5d */
+  --error-hover: #fcbbbc;
+  --warn: #ecde95;
+  --warn-hover: #fff6c9;
+  --info: #6394c6;
+  --info-hover: #91caff;
+}
+
+/* avatar */
+
+.avatar-s {
+  height: 80px;
+  width: auto;
+  clip-path: circle(35% at 50% 45%);
+}
+
+.avatar-m {
+  height: 110px;
+  width: auto;
+  clip-path: circle(40% at 50% 49%);
+}
+
+.avatar-l {
+  height: 140px;
+  width: auto;
+  clip-path: circle(39% at 50% 50%);
+}
+
+/* avatar ends here */
+.flex.avatar {
+  flex-direction: column;
+  align-items: center;
+}
+
+iframe {
+  height: 86px;
+}
+
+@media only screen and (max-width: 425px) {
+  .flex.avatar {
+    flex-direction: column;
+    align-items: center;
+  }
+  iframe {
+    height: 122px;
+  }
+}

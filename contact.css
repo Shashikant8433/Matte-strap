@@ -1,0 +1,16 @@
+:root {
+  --primary-color: #333;
+  --primary-color-hover: #555;
+  --primary-color-hover1: #adadad;
+  --primary-color-hover2: #dedede;
+  --success: #6e956f;
+  --success-hover: #cbf5cc;
+  --error: #e38587;
+  /* e05a5d */
+  --error-hover: #fcbbbc;
+  --warn: #ecde95;
+  --warn-hover: #fff6c9;
+  --info: #6394c6;
+  --info-hover: #91caff;
+}
+ 

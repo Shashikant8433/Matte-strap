@@ -1,0 +1,109 @@
+:root {
+  --primary-color: #333;
+  --primary-color-hover: #555;
+  --primary-color-hover1: #adadad;
+  --primary-color-hover2: #dedede;
+  --success: #6e956f;
+  --success-hover: #cbf5cc;
+  --error: #e38587;
+  /* e05a5d */
+  --error-hover: #fcbbbc;
+  --warn: #ecde95;
+  --warn-hover: #fff6c9;
+  --info: #6394c6;
+  --info-hover: #91caff;
+}
+/* card starts here */
+.card-s {
+  width: 18rem;
+  height: 100%;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 20px;
+  position: relative;
+  align-self: center;
+  margin: 0.2rem;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.prdct-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-s .prdct-nm {
+  margin: 0.5rem 1rem;
+}
+
+.price-details {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 1rem;
+}
+
+.card-s .prdct-dpr {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.card-s .prdct-apr {
+  font-size: larger;
+  color: gray;
+  text-decoration: line-through;
+}
+
+.card-s .prdct-dscnt {
+  font-size: larger;
+  color: #d43939;
+  font-weight: bolder;
+}
+
+.card-s .prdct-dc {
+  margin: 01rem 1rem;
+}
+
+.red-badge {
+  background-color: #d43939;
+  padding: 0.2rem 0.5rem 0.2rem 0.8rem;
+  position: absolute;
+  top: 1.5rem;
+  right: 0rem;
+  color: white;
+}
+
+.blue-badge {
+  background-color: #4040fc;
+  padding: 0.2rem 0.5rem 0.2rem 0.8rem;
+  position: absolute;
+  top: 1.5rem;
+  left: 0rem;
+  color: white;
+}
+.iframe-card-1 {
+  height: 230px;
+}
+.iframe-card-2 {
+  height: 374px;
+}
+.iframe-card-3 {
+  height: 410px;
+}
+
+/* cards end here */
+@media only screen and (max-width: 425px) {
+  .flex.cards {
+    flex-direction: column;
+  }
+
+  .card-s {
+    width: 15rem;
+    align-self: center;
+    margin: 1rem;
+  }
+}

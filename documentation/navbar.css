@@ -1,0 +1,81 @@
+:root {
+  --primary-color: #333;
+  --primary-color-hover: #555;
+  --primary-color-hover1: #adadad;
+  --primary-color-hover2: #dedede;
+  --success: #6e956f;
+  --success-hover: #cbf5cc;
+  --error: #e38587;
+  /* e05a5d */
+  --error-hover: #fcbbbc;
+  --warn: #ecde95;
+  --warn-hover: #fff6c9;
+  --info: #6394c6;
+  --info-hover: #91caff;
+}
+/* nav */
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  border: 0.1rem solid black;
+}
+
+.nav-logo {
+  font-size: large;
+  align-self: center;
+  margin: 1rem;
+}
+
+.nav-lists {
+  display: flex;
+  list-style: none;
+  padding: 0rem;
+}
+
+.a-link {
+  border: 0.1px solid black;
+  border-radius: 0.2rem;
+  padding: 0.2rem;
+  color: black;
+  text-decoration: none;
+  margin: 0.5rem;
+}
+
+.a-link:hover {
+  background-color: #555;
+  color: white;
+}
+/* nav ends here */
+
+/* nav reverse */
+
+.navigation.rev {
+  flex-direction: row-reverse;
+}
+
+/* nav reverse ends here */
+
+.sub1 iframe {
+  height: 430px;
+}
+
+.sub1 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 425px) {
+  .sub1 {
+    justify-content: center;
+  }
+
+  .nav-logo {
+    margin: 0.5rem;
+  }
+
+  .a-link {
+    margin: 0.1rem;
+  }
+}

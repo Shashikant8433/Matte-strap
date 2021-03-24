@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="../style.css" />
+    <link type="text/css" rel="stylesheet" href="avatar.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <nav class="navbar">
+        <img src="../assets/fg-light.png" class="brand-title" />
+
+        <span class="brand-name">Matte-strap</span>
+        <a href="#" class="toggle-button">
+          <span class="bar bar1"></span>
+          <span class="bar bar2"></span>
+          <span class="bar bar3"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <!-- Mobile navigation -->
+
+            <li id="li1"><a href="../home.html">Home</a></li>
+
+            <li id="li2" style="display: flex; align-self: center">
+              <select id="select">
+                <option value="Docs">Documentation</option>
+
+                <option value="navbar">nav &amp; sidebar</option>
+
+                <option value="avatar" selected>avatar</option>
+
+                <option value="card">card</option>
+
+                <option value="alert">Alert</option>
+              </select>
+            </li>
+
+            <li id="li3"><a href="../contact.html">Contact</a></li>
+
+            <!-- Desktop navigation -->
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- Main -->
+    <main>
+      <div class="sub2">
+        <div class="div-border">
+          <h1 id="ava-tar">Avatars</h1>
+          <div class="flex avatar">
+            <img src="../assets/avatar.png" class="avatar-s" />
+            <iframe
+              src="https://carbon.now.sh/embed/U9i0qtCVkx7KRj9UUEa0"
+              style="border: 0; transform: scale(1); overflow: hidden"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+            <hr width="90%" />
+            <img src="../assets/avatar.png" class="avatar-m" />
+            <iframe
+              src="https://carbon.now.sh/embed/mSJsxMLpqqoLvqvCNnnq"
+              style="border: 0; transform: scale(1); overflow: hidden"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+            <hr width="90%" />
+
+            <img src="../assets/avatar.png" class="avatar-l" />
+            <iframe
+              src="https://carbon.now.sh/embed/FCBuWv2VY2CP4nfKfaNv"
+              style="border: 0; transform: scale(1); overflow: hidden"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+            <hr width="90%" />
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Body Ends here -->
+    <script src="../main.js"></script>
+    <script>
+      var select = document.getElementById("select");
+      select.addEventListener("change", (e) => {
+        console.log(e.target.value);
+        switch (e.target.value) {
+          case "navbar":
+            window.location = "navbar.html";
+            break;
+          case "avatar":
+            window.location = "avatar.html";
+            break;
+          case "card":
+            window.location = "cards.html";
+            break;
+          case "alert":
+            window.location = "alert.html";
+            break;
+          case "Docs":
+            let file = window.location.href;
+            let arr = file.split("/");
+            console.log(arr[arr.length - 1]);
+            if (window.location.href !== "documentation.html") {
+              window.location = "../documentation.html";
+            }
+            break;
+        }
+      });
+    </script>
+  </body>
+</html>

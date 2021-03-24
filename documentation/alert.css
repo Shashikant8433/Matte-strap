@@ -1,0 +1,218 @@
+:root {
+  --primary-color: #333;
+  --primary-color-hover: #555;
+  --primary-color-hover1: #adadad;
+  --primary-color-hover2: #dedede;
+  --success-dark: #266b28;
+  --success: #669968;
+  --success-hover: #cbf5cc;
+  --error-dark: #c93e41;
+  --error: #dc5456;
+  --error-hover: #d88687;
+  --warn-dark: #edd453;
+  --warn: #d3b624ec;
+  --warn-hover: #fff6c9;
+  --info-dark: #4da5f7;
+  --info: #6394c6;
+  --info-hover: #91caff;
+}
+
+/* success starts here */
+.alert-success {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: flex-start;
+  border: 4px solid var(--success-dark);
+  border-radius: 0.5rem;
+  width: 100%;
+  align-items: center;
+  background-color: var(--success);
+  color: white;
+}
+
+.alert-success i,
+.alert-success p {
+  margin: 0.3rem 1rem;
+  color: var(--success);
+  -webkit-text-stroke: 1.5px white;
+}
+
+.alert-success p {
+  font-size: larger;
+  color: white;
+  -webkit-text-stroke: 0px black;
+}
+/* success ends here */
+
+/* error starts here */
+.alert-error {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: flex-start;
+  border: 4px solid var(--error-dark);
+  border-radius: 0.5rem;
+  width: 100%;
+  align-items: center;
+  background-color: var(--error);
+  color: white;
+}
+
+.alert-error i,
+.alert-error p {
+  margin: 0.3rem 1rem;
+  color: var(--error);
+  -webkit-text-stroke: 1.5px white;
+}
+
+.alert-error p {
+  font-size: larger;
+  color: white;
+  -webkit-text-stroke: 0px black;
+}
+/* error ends here */
+
+/* warn starts here */
+.alert-warn {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: flex-start;
+  border: 4px solid var(--warn-dark);
+  border-radius: 0.5rem;
+  width: 100%;
+  align-items: center;
+  background-color: var(--warn);
+  color: white;
+}
+
+.alert-warn i,
+.alert-warn p {
+  margin: 0.3rem 1rem;
+  color: var(--warn);
+  -webkit-text-stroke: 1.5px white;
+}
+
+.alert-warn p {
+  font-size: larger;
+  color: white;
+  -webkit-text-stroke: 0px black;
+}
+/* warn ends here */
+
+/* info starts here */
+.alert-info {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: flex-start;
+  border: 4px solid var(--info-dark);
+  border-radius: 0.5rem;
+  width: 100%;
+  align-items: center;
+  background-color: var(--info);
+  color: white;
+}
+
+.alert-info i,
+.alert-info p {
+  margin: 0.3rem 1rem;
+  color: var(--info);
+  -webkit-text-stroke: 1.5px white;
+}
+
+.alert-info p {
+  font-size: larger;
+  color: white;
+  -webkit-text-stroke: 0px black;
+}
+/* info ends here */
+
+/* success border starts here */
+.alert-border-success {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: flex-start;
+  border: 2px solid var(--success-dark);
+  border-radius: 0.5rem;
+  width: 100%;
+  align-items: center;
+}
+
+.alert-border-success i,
+.alert-border-success p {
+  margin: 0.3rem 1rem;
+  color: var(--success);
+}
+
+.alert-border-success p {
+  font-size: larger;
+  -webkit-text-stroke: 0.2px black;
+}
+/* success border ends here */
+
+/* error border starts here */
+.alert-border-error {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: flex-start;
+  border: 2px solid var(--error-dark);
+  border-radius: 0.5rem;
+  width: 100%;
+  align-items: center;
+}
+
+.alert-border-error i,
+.alert-border-error p {
+  margin: 0.3rem 1rem;
+  color: var(--error);
+}
+
+.alert-border-error p {
+  font-size: larger;
+  -webkit-text-stroke: 0.2px black;
+}
+/* error border ends here */
+
+/* warn border starts here */
+.alert-border-warn {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: flex-start;
+  border: 2px solid var(--warn-dark);
+  border-radius: 0.5rem;
+  width: 100%;
+  align-items: center;
+}
+
+.alert-border-warn i,
+.alert-border-warn p {
+  margin: 0.3rem 1rem;
+  color: var(--warn);
+}
+
+.alert-border-warn p {
+  font-size: larger;
+  -webkit-text-stroke: 0.5px gray;
+}
+/* warn border ends here */
+
+/* info border starts here */
+.alert-border-info {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: flex-start;
+  border: 2px solid var(--info-dark);
+  border-radius: 0.5rem;
+  width: 100%;
+  align-items: center;
+}
+
+.alert-border-info i,
+.alert-border-info p {
+  margin: 0.3rem 1rem;
+  color: var(--info);
+}
+
+.alert-border-info p {
+  font-size: larger;
+  -webkit-text-stroke: 0.2px black;
+}
+/* info border ends here */
