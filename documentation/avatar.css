@@ -77,9 +77,9 @@
   align-items: center;
 }
 
-iframe {
+/* iframe {
   height: 86px;
-}
+} */
 
 @media only screen and (max-width: 425px) {
   .flex.avatar {
