@@ -34,6 +34,43 @@
   clip-path: circle(39% at 50% 50%);
 }
 
+.status {
+  position: relative;
+}
+
+.s {
+  width: 15px;
+  height: 15px;
+  border: 1.5px solid white;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.m {
+  width: 25px;
+  height: 25px;
+  border: 2px solid white;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.l {
+  width: 30px;
+  height: 30px;
+  border: 2.5px solid white;
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+}
+.online {
+  background-color: green;
+  border-radius: 50%;
+}
+.offline {
+  background-color: red;
+  border-radius: 50%;
+}
+
 /* avatar ends here */
 .flex.avatar {
   flex-direction: column;
