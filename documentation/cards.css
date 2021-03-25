@@ -86,16 +86,50 @@
   color: white;
 }
 .iframe-card-1 {
-  height: 230px;
+  height: 213px;
 }
 .iframe-card-2 {
-  height: 374px;
+  height: 356px;
 }
 .iframe-card-3 {
-  height: 410px;
+  height: 374px;
+}
+.iframe-card-4 {
+  height: 230px;
+}
+.iframe-card-5 {
+  height: 320px;
 }
 
+.shadow {
+  box-shadow: 6px 6px 8px 0px gray;
+}
+
+.prdct-btn {
+  border-radius: 5px;
+  padding: 5px;
+  margin: 0.2rem 0.5rem 1rem 1rem;
+  background-color: var(--primary-color-hover);
+  font-weight: 200;
+  color: white;
+}
+
+.row {
+  display: flex;
+}
+
+.h-res {
+  height: 100%;
+  width: 90px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.margin {
+  margin: 0.5rem 0;
+}
 /* cards end here */
+
 @media only screen and (max-width: 425px) {
   .flex.cards {
     flex-direction: column;

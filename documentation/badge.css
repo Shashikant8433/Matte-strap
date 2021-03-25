@@ -55,6 +55,12 @@
   -webkit-text-stroke: 0.11px black;
   width: min-content;
 }
-iframe{
-  height: 12em;
+iframe {
+  height: 9em;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
