@@ -20,31 +20,22 @@
   align-items: center;
 }
 .image-responsive-small {
-  width: 150px;
+  position: relative;
+  width: 35%;
   height: auto;
 }
 .image-responsive-medium {
-  width: 250px;
+  position: relative;
+  width: 50%;
   height: auto;
 }
 .image-responsive-large {
-  width: 350px;
+  position: relative;
+  width: 70%;
   height: auto;
 }
 .responding-image {
   width: 100%;
 }
-@media only screen and (max-width: 425px) {
-  .image-responsive-small {
-    width: 80px;
-    height: auto;
-  }
-  .image-responsive-medium {
-    width: 160px;
-    height: auto;
-  }
-  .image-responsive-large {
-    width: 240px;
-    height: auto;
-  }
-}
+/* @media only screen and (max-width: 425px) {
+} */
