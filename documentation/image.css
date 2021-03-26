@@ -1,0 +1,50 @@
+:root {
+  --primary-color: #333;
+  --primary-color-hover: #555;
+  --primary-color-hover1: #adadad;
+  --primary-color-hover2: #dedede;
+  --success-dark: #266b28;
+  --success: #669968;
+  --success-hover: #cbf5cc;
+  --error-dark: #c93e41;
+  --error: #dc5456;
+  --error-hover: #d88687;
+  --warn-dark: #edd453;
+  --warn: #d3b624ec;
+  --warn-hover: #fcf0b4;
+  --info-dark: #4da5f7;
+  --info: #6394c6;
+  --info-hover: #91caff;
+}
+.center {
+  align-items: center;
+}
+.image-responsive-small {
+  width: 150px;
+  height: auto;
+}
+.image-responsive-medium {
+  width: 250px;
+  height: auto;
+}
+.image-responsive-large {
+  width: 350px;
+  height: auto;
+}
+.responding-image {
+  width: 100%;
+}
+@media only screen and (max-width: 425px) {
+  .image-responsive-small {
+    width: 80px;
+    height: auto;
+  }
+  .image-responsive-medium {
+    width: 160px;
+    height: auto;
+  }
+  .image-responsive-large {
+    width: 240px;
+    height: auto;
+  }
+}

@@ -1,0 +1,110 @@
+:root {
+  --primary-color: #333;
+  --primary-color-hover: #555;
+  --primary-color-hover1: #adadad;
+  --primary-color-hover2: #dedede;
+  --success-dark: #266b28;
+  --success: #669968;
+  --success-hover: #cbf5cc;
+  --error-dark: #c93e41;
+  --error: #dc5456;
+  --error-hover: #d88687;
+  --warn-dark: #edd453;
+  --warn: #d3b624ec;
+  --warn-hover: #fff6c9;
+  --info-dark: #4da5f7;
+  --info: #6394c6;
+  --info-hover: #91caff;
+}
+.center {
+  align-items: center;
+}
+
+input:focus {
+  background-color: var(--primary-color-hover2);
+  color: black;
+  margin: 0.5rem;
+  box-shadow: 6px 6px 8px 0px gray;
+}
+
+.small-input {
+  border-radius: 0.25rem;
+  outline-color: var(--primary-color);
+  padding: 0.2rem;
+  margin: 0.4rem;
+}
+
+.medium-input {
+  width: 220px;
+  max-width: 100%;
+  border-radius: 0.25rem;
+  outline-color: var(--primary-color);
+  padding: 0.3rem;
+  margin: 0.4rem;
+}
+
+.large-input {
+  width: 450px;
+  max-width: 100%;
+  border-radius: 0.25rem;
+  outline-color: var(--primary-color);
+  padding: 0.4rem;
+  margin: 0.4rem;
+}
+
+.small-checkbox {
+  width: 18px;
+  height: 18px;
+}
+.medium-checkbox {
+  width: 22px;
+  height: 22px;
+}
+.large-checkbox {
+  width: 26px;
+  height: 26px;
+}
+
+.small-button {
+  padding: 0.2rem 0.3rem;
+  outline-color: var(--primary-color);
+  background-color: var(--primary-color-hover2);
+  color: var(--primary-color);
+  box-shadow: none;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: smaller;
+  margin: 0.5rem;
+  box-shadow: 4px 5px 8px 0px gray;
+}
+.medium-button {
+  padding: 0.4rem 0.6rem;
+  outline-color: var(--primary-color);
+  background-color: var(--primary-color-hover2);
+  color: var(--primary-color);
+  box-shadow: none;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: small;
+  margin: 0.5rem;
+  box-shadow: 5px 5px 8px 0px gray;
+}
+
+.large-button {
+  padding: 0.5rem 1rem;
+  outline-color: var(--primary-color);
+  background-color: var(--primary-color-hover2);
+  color: var(--primary-color);
+  box-shadow: none;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: large;
+  margin: 0.5rem;
+  box-shadow: 7px 7px 9px 0px gray;
+}
+
+@media only screen and (max-width: 425px) {
+}

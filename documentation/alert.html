@@ -38,6 +38,8 @@
                 <option value="card">Card</option>
                 <option value="alert" selected>Alert</option>
                 <option value="badge">Badge</option>
+                <option value="image">Images</option>
+                <option value="form">Forms</option>
               </select>
             </li>
 
@@ -60,7 +62,7 @@
           >
           </iframe>
           <h3>Solid Alerts</h3>
-          <div class="div-border flex">
+          <div class="div-border flex center">
             <div class="alert-success">
               <i class="fas fa-check-circle fa-2x"></i>
               <p>Success</p>
@@ -106,7 +108,7 @@
             </iframe>
           </div>
           <h3>Border Alerts</h3>
-          <div class="div-border flex">
+          <div class="div-border flex center">
             <div class="alert-border-success">
               <i class="fas fa-check-circle fa-2x"></i>
               <p>Success</p>
@@ -175,6 +177,12 @@
             break;
           case "badge":
             window.location = "badge.html";
+            break;
+          case "image":
+            window.location = "image.html";
+            break;
+          case "form":
+            window.location = "form.html";
             break;
           case "Docs":
             let file = window.location.href;
