@@ -14,7 +14,7 @@
         <img src="./assets/fg-light.png" class="brand-title" />
 
         <span class="brand-name">Matte-strap</span>
-        <a href="#" class="toggle-button">
+        <a href="#" class="toggle-button" id="mobile-nav">
           <span class="bar bar1"></span>
           <span class="bar bar2"></span>
           <span class="bar bar3"></span>
@@ -27,7 +27,9 @@
 
             <li id="li2" style="display: flex; align-self: center">
               <select id="select">
-                <option value="Docs" selected>Documentation</option>
+                <option value="Docs" selected id="currentlySelected">
+                  Documentation
+                </option>
                 <option value="navbar">Navbar</option>
                 <option value="avatar">Avatar</option>
                 <option value="card">Card</option>
@@ -56,10 +58,40 @@
       Documentation
     </h1>
     <main>
-      it will have steps to connect css with user's html with pics. pics will
-      also have mobile and desktop view based on screen size i'll make them
-      display none if(screenSize === "mobile"){ display mobile steps }else{
-      display desktop steps }
+      <div class="div-border">
+        <div class="steps">
+          To get started with Matte-strap you need to
+          <a
+            href="./matte-strap.css"
+            download="matte-strap.css"
+            class="download-link"
+          >
+            download</a
+          >
+          CSS file and make sure that you have linked it to the HTML file using
+          <code>&lt;link&gt;</code> tag. <br />OR<br />Copy the following code
+          and paste it in <code>&lt;head&gt;</code> tag of your HTML.
+          <br />
+          <iframe
+            src="https://carbon.now.sh/embed/UseDKgcU17Q7ZyIz7juo"
+            style="
+              width: 240px;
+              min-height: 200px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+          <a
+            href="documentation.html#select"
+            class="explore-now"
+            onclick="openOptions()"
+            >Explore now</a
+          >
+        </div>
+      </div>
     </main>
     <!-- Body Ends here -->
     <script src="./main.js"></script>
@@ -86,7 +118,7 @@
             window.location = "./documentation/image.html";
             break;
           case "form":
-            window.location = "./documentation/form.html";
+            window.location = "./documentation/forms.html";
             break;
           case "Docs":
             let file = window.location.href;
@@ -98,6 +130,14 @@
             break;
         }
       });
+      var currentlySelected = document.getElementById("currentlySelected");
+
+      var mobilenav = document.getElementById("mobile-nav");
+
+      function openOptions() {
+        mobilenav.click();
+        currentlySelected.click();
+      }
     </script>
   </body>
 </html>

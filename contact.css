@@ -13,4 +13,23 @@
   --info: #6394c6;
   --info-hover: #91caff;
 }
- 
+
+.github,
+.linkedin,
+.twitter,
+.tel,
+.mail {
+  width: 5.5vmax;
+  height: 5.5vmax;
+  margin: 1rem;
+}
+.social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.connect,
+.copy {
+  text-align: center;
+  font-size: larger;
+}

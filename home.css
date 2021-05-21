@@ -32,8 +32,12 @@
   padding: 0.8rem;
   font-weight: bold;
   font-size: medium;
+  transition: 0.3s;
 }
-
+.get-started:hover {
+  background-color: #444;
+  color: #e0e0e0;
+}
 .download {
   text-decoration: none;
   color: #adadad;
@@ -41,6 +45,11 @@
   padding: 0.8rem;
   font-weight: bold;
   font-size: medium;
+  transition: 0.3s;
+}
+.download:hover {
+  background-color: #444;
+  color: #e0e0e0;
 }
 /* works above 1024px mainly for laptop */
 @media only screen and (min-width: 1024px) {
