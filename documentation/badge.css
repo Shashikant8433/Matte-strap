@@ -25,6 +25,7 @@
   margin: 0.1rem;
   border-radius: 3px;
   -webkit-text-stroke: 0.11px black;
+  width: auto;
 }
 .error {
   background-color: var(--error-hover);
@@ -33,6 +34,7 @@
   padding: 0.2rem 0.4rem;
   margin: 0.1rem;
   border-radius: 3px;
+  width: auto;
 }
 .success {
   background-color: var(--success-hover);
@@ -41,6 +43,7 @@
   padding: 0.2rem 0.4rem;
   margin: 0.1rem;
   border-radius: 3px;
+  width: auto;
 }
 .warning {
   background-color: var(--warn-hover);
@@ -50,6 +53,7 @@
   margin: 0.1rem;
   border-radius: 3px;
   -webkit-text-stroke: 0.11px black;
+  width: auto;
 }
 iframe {
   height: 9em;
