@@ -192,7 +192,9 @@
     align-self: center;
     margin: 1rem;
   }
-
+  .cart-item {
+    width: 80vw;
+  }
   .img img {
     width: 70px;
     height: 70px;
