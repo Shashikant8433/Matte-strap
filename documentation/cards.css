@@ -15,7 +15,7 @@
 }
 /* card starts here */
 .card-s {
-  width: 18rem;
+  width: 10rem;
   height: 100%;
   display: inline-block;
   border: 1px solid black;
@@ -23,6 +23,7 @@
   position: relative;
   align-self: center;
   margin: 0.2rem;
+  overflow: hidden;
 }
 
 .card-img {
@@ -38,13 +39,14 @@
 }
 
 .card-s .prdct-nm {
-  margin: 0.5rem 1rem;
+  margin: 0.3rem 1rem;
 }
 
 .price-details {
   display: flex;
   justify-content: space-between;
-  margin: 0.5rem 1rem;
+  margin: 0.1rem 1rem;
+  font-size: small;
 }
 
 .card-s .prdct-dpr {
@@ -65,23 +67,25 @@
 }
 
 .card-s .prdct-dc {
-  margin: 01rem 1rem;
+  margin: 0.1rem 1rem 1rem 1rem;
 }
 
 .red-badge {
   background-color: #d43939;
+  font-size: small;
   padding: 0.2rem 0.5rem 0.2rem 0.8rem;
   position: absolute;
-  top: 1.5rem;
+  top: 0rem;
   right: 0rem;
   color: white;
 }
 
 .blue-badge {
   background-color: #4040fc;
+  font-size: small;
   padding: 0.2rem 0.5rem 0.2rem 0.8rem;
   position: absolute;
-  top: 1.5rem;
+  top: 0rem;
   left: 0rem;
   color: white;
 }
@@ -99,6 +103,9 @@
 }
 .iframe-card-5 {
   height: 320px;
+}
+.iframe-card-6 {
+  height: 380px;
 }
 
 .shadow {
@@ -119,8 +126,8 @@
 }
 
 .h-res {
-  height: 100%;
-  width: 90px;
+  height: 70%;
+  width: 150%;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
@@ -128,6 +135,51 @@
 .margin {
   margin: 0.5rem 0;
 }
+
+.cart-item {
+  align-self: center;
+  width: 60vw;
+  display: flex;
+  justify-content: space-around;
+}
+.img img {
+  width: 130px;
+  height: 130px;
+}
+.alter-stock {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  font-size: larger;
+}
+.item-tagline {
+  color: #afafaf;
+}
+.incr-dcr {
+  align-self: center;
+  font-size: large;
+}
+.incr-dcr button {
+  margin: 5px;
+  border-radius: 50%;
+}
+.incr-dcr button:nth-child(1) {
+  padding: 5px 10.5px;
+}
+.incr-dcr button:nth-child(3) {
+  padding: 5px 9px;
+}
+.price-and-remove {
+  font-size: x-large;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.remove {
+  font-size: large;
+  color: red;
+}
+
 /* cards end here */
 
 @media only screen and (max-width: 425px) {
@@ -136,8 +188,38 @@
   }
 
   .card-s {
-    width: 15rem;
+    width: 10rem;
     align-self: center;
     margin: 1rem;
+  }
+
+  .img img {
+    width: 70px;
+    height: 70px;
+  }
+  .alter-stock {
+    font-size: medium;
+  }
+  .item-tagline {
+    color: #868686;
+  }
+  .incr-dcr {
+    font-size: small;
+  }
+  .incr-dcr button {
+    margin: 2px;
+    border-radius: 50%;
+  }
+  .incr-dcr button:nth-child(1) {
+    padding: 2px 7px;
+  }
+  .incr-dcr button:nth-child(3) {
+    padding: 2px 5.5px;
+  }
+  .price-and-remove {
+    font-size: medium;
+  }
+  .remove {
+    font-size: medium;
   }
 }
