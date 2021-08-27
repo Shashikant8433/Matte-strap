@@ -182,6 +182,38 @@
 
 /* cards end here */
 
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+  .cart-item {
+    width: 70vw;
+  }
+  .img img {
+    width: 90px;
+    height: 90px;
+  }
+  .alter-stock {
+    font-size: medium;
+  }
+  .incr-dcr {
+    font-size: small;
+  }
+  .incr-dcr button {
+    margin: 2px;
+    border-radius: 50%;
+  }
+  .incr-dcr button:nth-child(1) {
+    padding: 2px 7px;
+  }
+  .incr-dcr button:nth-child(3) {
+    padding: 2px 5.5px;
+  }
+  .price-and-remove {
+    font-size: medium;
+  }
+  .remove {
+    font-size: medium;
+  }
+}
+
 @media only screen and (max-width: 425px) {
   .flex.cards {
     flex-direction: column;
