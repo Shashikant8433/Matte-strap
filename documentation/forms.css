@@ -93,13 +93,17 @@
   font-size: large;
   margin: 0.5rem;
 }
-button:focus {
+.small-button:focus,
+.medium-button:focus,
+.large-button:focus {
   outline: black;
   background-color: var(--primary-color);
   color: white;
 }
 
-button:hover {
+.small-button:hover,
+.medium-button:hover,
+.large-button:hover {
   outline: black;
   background-color: var(--primary-color-hover1);
   color: black;
