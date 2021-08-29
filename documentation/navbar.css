@@ -39,10 +39,14 @@
   padding: 0.2rem;
   color: black;
   text-decoration: none;
-  margin: 0.5rem;
+  margin: 4px;
 }
 
 .a-link:hover {
+  background-color: #555;
+  color: white;
+}
+.a-link:active {
   background-color: #555;
   color: white;
 }
@@ -76,6 +80,6 @@
   }
 
   .a-link {
-    margin: 0.1rem;
+    margin: 2px;
   }
 }
