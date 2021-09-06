@@ -277,6 +277,7 @@
   .img img {
     width: 90px;
     height: 90px;
+    margin-left: 10px;
   }
   .alter-stock {
     font-size: medium;
@@ -318,6 +319,7 @@
   .img img {
     width: 70px;
     height: 70px;
+    margin: 6px 0 0 5px;
   }
   .alter-stock {
     font-size: medium;
