@@ -176,7 +176,7 @@
   font-size: x-large;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .remove {
   font-size: large;
@@ -322,7 +322,7 @@
     margin: 6px 0 0 5px;
   }
   .alter-stock {
-    font-size: medium;
+    font-size: 14px;
   }
   .item-tagline {
     color: #868686;
