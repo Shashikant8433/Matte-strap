@@ -146,7 +146,8 @@
 }
 .img img {
   width: 130px;
-  height: 134px;
+  height: 130px;
+  object-fit: contain;
 }
 .alter-stock {
   display: flex;
@@ -275,7 +276,7 @@
   }
   .img img {
     width: 90px;
-    height: 94px;
+    height: 90px;
   }
   .alter-stock {
     font-size: medium;
@@ -316,7 +317,7 @@
   }
   .img img {
     width: 70px;
-    height: 74px;
+    height: 70px;
   }
   .alter-stock {
     font-size: medium;
